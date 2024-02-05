@@ -44,6 +44,8 @@ Serves as the central API Gateway, providing a unified entry point for requests 
 The backend leverages Axon Framework to implement and manage events, ensuring a robust and scalable Event-Driven Architecture.
 #### Docker
 Axon Framework: Docker is utilized to locally run the Axon Framework, facilitating a smooth development environment.
+#### Databases
+MongoDb: For storing product images, H2Base: For Products, Orders, Users metadata
 #### Project Structure
 > - frontend/          # Frontend React application
 >  - backend/
