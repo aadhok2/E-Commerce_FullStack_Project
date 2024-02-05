@@ -1,0 +1,111 @@
+/* NavBar.css */
+
+body{
+    margin: 0;
+    padding: 0;
+  }
+
+.navbar {
+    padding-top: 10px;
+    padding: 10px;
+    background-color: #232f3e;
+    color: white;
+    /* box-shadow: 0 0px 1px gray;  */
+  }
+  
+  .nav-container 
+  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1450px;
+    margin: 0 auto;
+    /* padding-top: 10px; */
+    padding-bottom: 0px;
+  }
+
+  .menuIcon{
+    cursor: pointer;
+  }
+  
+  .nav-logo {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-left: 200px;
+  }
+
+  .logo-image 
+  {
+    width: 30px; 
+    height: 30px;
+    border-radius: 100%; 
+    object-fit: cover; 
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+
+  .nav-link-logo {
+    position:relative;
+    display: inline-block;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-size: 2em; */
+    font-weight: 800;
+    color: royalblue;
+    overflow: hidden;
+    background: linear-gradient(to right, #00bfff, royalblue 50%, #ff944d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+    text-decoration: none;
+    &:hover {
+        background-position: 0 100%;
+        }
+    }
+  
+  .nav-link {
+    position: relative;
+    display: inline-block;
+    font-family: 'Amazon Ember', sans-serif;
+    /* font-size: 2em; */
+    font-weight: 800;
+    color: royalblue;
+    overflow: hidden;
+    background: linear-gradient(to right, #00bfff, royalblue 50%, white 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+    text-decoration: none;
+    &:hover {
+        background-position: 0 100%;
+    }
+    
+  }
+
+  .toggle-button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .toggle-button:hover {
+    background-color: #555;
+  }
+
+  .menuIcon{
+    /* padding: 20px; */
+  }
+  

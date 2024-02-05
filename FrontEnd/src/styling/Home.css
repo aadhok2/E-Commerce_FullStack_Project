@@ -1,0 +1,90 @@
+#centered-container {
+    max-width: 400px;
+    margin: 10px 500px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  }
+  
+ .home-heading{
+   
+    /* color: #333; */
+    /* margin-left: 80px; */
+  }
+
+  .product-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-bottom: 0.5px solid black; /* Set only the bottom border */
+    border-radius: 0;
+    outline: none; /* Remove the default input outline */
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+
+  .notification-box 
+  {
+  position: absolute;
+  bottom: 80px;
+  /* margin: 0px 400px; */
+  left: 46%;
+  transform: translateX(-50%);
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.notification-box.success {
+  background-color: rgba(105, 235, 105, 0.7); /* Transparent green */
+  color: #fff; /* White text */
+}
+
+.notification-box.error {
+  background-color: rgba(245, 118, 118, 0.7); /* Transparent red */
+  color: #fff; /* White text */
+}
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical; /* Allow vertical resizing */
+  font-size: 16px;
+}
+input:focus {
+  border-bottom: 2px solid #2075ad; /* Change to your desired blue color */
+}

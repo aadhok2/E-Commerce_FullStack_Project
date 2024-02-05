@@ -1,0 +1,65 @@
+/* OrderPage.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+  }
+  
+  .orders-container {
+    max-width: 800px; /* Increase the max-width for wider order boxes */
+    margin: 0 auto;
+    padding: 20px;
+    padding-left: 100px;
+  }
+  
+  .orders-container h1{
+    text-align: left;
+    color: #333;
+  }
+  
+  .content-container {
+    max-width: 800px;
+    width: 100%; /* Full width */
+    margin: 0 auto; /* Center horizontally */
+  }
+  
+  .order-item {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px; /* Increase padding for more space inside the order box */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Center the order box */
+  }
+  
+  .product-image {
+    max-width: 150px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-details {
+    flex: 1;
+  }
+  
+  .content-container h3 {
+    color: #3498db;
+  }
+  
+  p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  hr {
+    border: 0.5px solid #ddd;
+    margin: 20px 0;
+  }
+  
