@@ -56,7 +56,7 @@ MongoDb: For storing product images, H2Base: For Products, Orders, Users metadat
 >  - users/           # User microservice
 >  - payments/        # Payment microservice
 #### Getting Started
-- Clone the repository: git clone https://github.com/your-username/e-commerce.git.
+- Clone the repository: git clone https://github.com/aadhok2/aadhok2-E-Commerce_FullStack_Project.git
 - Ensure all required dependencies are installed.
 - Start the Axon Server first followed by backend services, and then frontend application(npm start).
 - Feel free to reach out for any questions or issues. Happy coding!
